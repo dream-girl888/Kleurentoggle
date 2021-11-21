@@ -1,0 +1,108 @@
+body { 
+    background-color: #f4f4f4;
+    color: #555;
+    font: normal 13px Arial, Hevetica, sans-serif;
+     }
+
+.title{
+    background-color: #5F9EA0;
+    font-family: 'MonteCarlo', cursive;
+    font-size: 55px;
+    text-align: center;
+    border-radius: 25px;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    margin-right: 0px;
+    margin-left: 0px;
+
+}
+/*titelbalk*/
+
+
+
+.black-border {
+    border: 5px solid rgb(40, 109, 136);
+    background-color: #7ec6ca;
+    border-radius: 25px;
+    padding: 15px 10px;
+        width: 265px;
+}
+
+.about-tekst{
+    line-height: 17.0pt;
+}
+hr
+    {
+      display:block;
+      border:none;
+      height: 1000px;
+      background-image:url('Achtergrond.jfif');
+      margin: 0px;
+    } 
+.achtergrond{
+    display:block;
+    border:none;
+    height: 500px;
+    background-image:url('Achtergrond.jfif');
+    margin: 120px 0px;}
+a:hover{
+    color:red;
+}
+
+input,
+textarea {
+  line-height: 25px;
+  font-size: 16px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 5px;
+  border: 1px solid grey;
+
+
+}
+
+.gegevens {
+display: flex;
+}
+.knop {
+    background-color: #2d5f81;
+    color: white;
+    border: none;
+    padding: 10px 32px;
+    margin: 4px 2px;
+
+/* media*/
+
+@media (min-width: 1024px) {
+
+body {
+    font-size: 1.0rem;
+    background-color: rgb(199, 174, 174);
+    width: 100%;
+} 
+.title {
+    font-size: 4.5rem;
+    color: red;
+    }
+.intro-tekst{
+    font-size: 1.40rem;
+    color: rgb(30, 43, 30);
+    padding: 0px 25px;
+}
+.bloem{
+ height: 300px;
+}
+.black-border{
+    width: 415px;
+    padding: 10px 10px;
+    }
+.logo-desktop{
+    height: 100px;
+}
+aside{
+    font-size: 13px;
+}
+.about-tekst {
+    line-height: 20.0pt;
+    padding: 0px 10px;
+}
